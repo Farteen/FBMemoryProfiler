@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Controllers/FBMemoryProfilerViewController.m \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/Target\ Support\ Files/FBMemoryProfiler/FBMemoryProfiler-prefix.pch \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Controllers/FBMemoryProfilerViewController.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Window/FBMemoryProfilerMovableViewController.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBAllocationTracker/FBAllocationTracker/FBAllocationTrackerManager.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBAllocationTracker/FBAllocationTracker/FBAllocationTrackerDefines.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Controllers/FBMemoryProfilerDataSource.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Utils/FBMemoryProfilerDeviceUtils.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Views/FBMemoryProfilerGenerationsSectionHeaderView.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Utils/FBMemoryProfilerMathUtils.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Options/FBMemoryProfilerOptions.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Options/FBMemoryProfilerPluggable.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Controllers/FBMemoryProfilerPresenting.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/FBMemoryProfilerPresentationModeDelegate.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Controllers/FBMemoryProfilerSectionHeaderDelegate.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/UI/FBMemoryProfilerSegmentedControl.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/UI/FBMemoryProfilerTextField.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/Views/FBMemoryProfilerView.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/RetainCycles/FBRetainCycleAnalysisCache.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBMemoryProfiler/FBMemoryProfiler/RetainCycles/FBRetainCyclePresenter.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBRetainCycleDetector/FBRetainCycleDetector/Detector/FBRetainCycleDetector.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBRetainCycleDetector/FBRetainCycleDetector/Associations/FBAssociationManager.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBRetainCycleDetector/FBRetainCycleDetector/Graph/FBObjectiveCBlock.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBRetainCycleDetector/FBRetainCycleDetector/Graph/FBObjectiveCGraphElement.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBRetainCycleDetector/FBRetainCycleDetector/Graph/Specialization/FBObjectiveCNSCFTimer.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBRetainCycleDetector/FBRetainCycleDetector/Graph/FBObjectiveCObject.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBRetainCycleDetector/FBRetainCycleDetector/Graph/FBObjectGraphConfiguration.h \
+  /Users/glasses/Desktop/Demos/MemoryProfilerTesting/Pods/FBRetainCycleDetector/FBRetainCycleDetector/Filtering/FBStandardGraphEdgeFilters.h

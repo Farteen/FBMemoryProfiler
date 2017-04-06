@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		769CD2CBC24BA35DC1212E2E /* libPods-MemoryProfilerTestingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5343B57A4A14A3A65B158F63 /* libPods-MemoryProfilerTestingUITests.a */; };
+		A2943F4D640C68F7E7796893 /* libPods-MemoryProfilerTesting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 284DFAA58A605F9E93E191D2 /* libPods-MemoryProfilerTesting.a */; };
 		C3110DCF1E96873100DB94B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110DCE1E96873100DB94B7 /* main.m */; };
-		C3110DD21E96873100DB94B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110DD11E96873100DB94B7 /* AppDelegate.m */; };
-		C3110DD51E96873100DB94B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110DD41E96873100DB94B7 /* ViewController.m */; };
 		C3110DD81E96873100DB94B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3110DD61E96873100DB94B7 /* Main.storyboard */; };
 		C3110DDA1E96873100DB94B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3110DD91E96873100DB94B7 /* Assets.xcassets */; };
 		C3110DDD1E96873100DB94B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3110DDB1E96873100DB94B7 /* LaunchScreen.storyboard */; };
 		C3110DE81E96873100DB94B7 /* MemoryProfilerTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110DE71E96873100DB94B7 /* MemoryProfilerTestingTests.m */; };
 		C3110DF31E96873100DB94B7 /* MemoryProfilerTestingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110DF21E96873100DB94B7 /* MemoryProfilerTestingUITests.m */; };
+		C3110E0C1E96876A00DB94B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110E011E96876A00DB94B7 /* AppDelegate.m */; };
+		C3110E0D1E96876A00DB94B7 /* CacheCleanerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110E031E96876A00DB94B7 /* CacheCleanerPlugin.m */; };
+		C3110E0E1E96876A00DB94B7 /* FacebookOpenSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110E051E96876A00DB94B7 /* FacebookOpenSourceViewController.m */; };
+		C3110E0F1E96876A00DB94B7 /* FacebookProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110E071E96876A00DB94B7 /* FacebookProjectViewController.m */; };
+		C3110E101E96876A00DB94B7 /* GithubRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110E091E96876A00DB94B7 /* GithubRepository.m */; };
+		C3110E111E96876A00DB94B7 /* RetainCycleLoggerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C3110E0B1E96876A00DB94B7 /* RetainCycleLoggerPlugin.m */; };
+		F399B5D21BC7CF3565E31546 /* libPods-MemoryProfilerTestingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 233463D51A72F72BE9743A3F /* libPods-MemoryProfilerTestingTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		233463D51A72F72BE9743A3F /* libPods-MemoryProfilerTestingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MemoryProfilerTestingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		237019665E0C3D782EDEAB52 /* Pods-MemoryProfilerTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryProfilerTesting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemoryProfilerTesting/Pods-MemoryProfilerTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		284DFAA58A605F9E93E191D2 /* libPods-MemoryProfilerTesting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MemoryProfilerTesting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5343B57A4A14A3A65B158F63 /* libPods-MemoryProfilerTestingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MemoryProfilerTestingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		686B8AF68444CB50EBCF7EB1 /* Pods-MemoryProfilerTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryProfilerTesting.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemoryProfilerTesting/Pods-MemoryProfilerTesting.release.xcconfig"; sourceTree = "<group>"; };
+		9844408B4201773D3D201FBB /* Pods-MemoryProfilerTestingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryProfilerTestingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemoryProfilerTestingUITests/Pods-MemoryProfilerTestingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A910369E95267D0679A77D98 /* Pods-MemoryProfilerTestingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryProfilerTestingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemoryProfilerTestingTests/Pods-MemoryProfilerTestingTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5F3EA67639A88772D0E0EB4 /* Pods-MemoryProfilerTestingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryProfilerTestingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemoryProfilerTestingTests/Pods-MemoryProfilerTestingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C07AC0B372880A5ACBA69116 /* Pods-MemoryProfilerTestingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryProfilerTestingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemoryProfilerTestingUITests/Pods-MemoryProfilerTestingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3110DCA1E96873100DB94B7 /* MemoryProfilerTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryProfilerTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3110DCE1E96873100DB94B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C3110DD01E96873100DB94B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C3110DD11E96873100DB94B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C3110DD31E96873100DB94B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C3110DD41E96873100DB94B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C3110DD71E96873100DB94B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3110DD91E96873100DB94B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3110DDC1E96873100DB94B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,18 @@
 		C3110DEE1E96873100DB94B7 /* MemoryProfilerTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryProfilerTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3110DF21E96873100DB94B7 /* MemoryProfilerTestingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryProfilerTestingUITests.m; sourceTree = "<group>"; };
 		C3110DF41E96873100DB94B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3110E001E96876A00DB94B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3110E011E96876A00DB94B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3110E021E96876A00DB94B7 /* CacheCleanerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheCleanerPlugin.h; sourceTree = "<group>"; };
+		C3110E031E96876A00DB94B7 /* CacheCleanerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheCleanerPlugin.m; sourceTree = "<group>"; };
+		C3110E041E96876A00DB94B7 /* FacebookOpenSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookOpenSourceViewController.h; sourceTree = "<group>"; };
+		C3110E051E96876A00DB94B7 /* FacebookOpenSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookOpenSourceViewController.m; sourceTree = "<group>"; };
+		C3110E061E96876A00DB94B7 /* FacebookProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookProjectViewController.h; sourceTree = "<group>"; };
+		C3110E071E96876A00DB94B7 /* FacebookProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookProjectViewController.m; sourceTree = "<group>"; };
+		C3110E081E96876A00DB94B7 /* GithubRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GithubRepository.h; sourceTree = "<group>"; };
+		C3110E091E96876A00DB94B7 /* GithubRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubRepository.m; sourceTree = "<group>"; };
+		C3110E0A1E96876A00DB94B7 /* RetainCycleLoggerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetainCycleLoggerPlugin.h; sourceTree = "<group>"; };
+		C3110E0B1E96876A00DB94B7 /* RetainCycleLoggerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetainCycleLoggerPlugin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2943F4D640C68F7E7796893 /* libPods-MemoryProfilerTesting.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F399B5D21BC7CF3565E31546 /* libPods-MemoryProfilerTestingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769CD2CBC24BA35DC1212E2E /* libPods-MemoryProfilerTestingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A13A5A45CD08DDACFD21C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				284DFAA58A605F9E93E191D2 /* libPods-MemoryProfilerTesting.a */,
+				233463D51A72F72BE9743A3F /* libPods-MemoryProfilerTestingTests.a */,
+				5343B57A4A14A3A65B158F63 /* libPods-MemoryProfilerTestingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA07939705A40CED11554C5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				237019665E0C3D782EDEAB52 /* Pods-MemoryProfilerTesting.debug.xcconfig */,
+				686B8AF68444CB50EBCF7EB1 /* Pods-MemoryProfilerTesting.release.xcconfig */,
+				B5F3EA67639A88772D0E0EB4 /* Pods-MemoryProfilerTestingTests.debug.xcconfig */,
+				A910369E95267D0679A77D98 /* Pods-MemoryProfilerTestingTests.release.xcconfig */,
+				C07AC0B372880A5ACBA69116 /* Pods-MemoryProfilerTestingUITests.debug.xcconfig */,
+				9844408B4201773D3D201FBB /* Pods-MemoryProfilerTestingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C3110DC11E96873100DB94B7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +135,8 @@
 				C3110DE61E96873100DB94B7 /* MemoryProfilerTestingTests */,
 				C3110DF11E96873100DB94B7 /* MemoryProfilerTestingUITests */,
 				C3110DCB1E96873100DB94B7 /* Products */,
+				BA07939705A40CED11554C5C /* Pods */,
+				1A13A5A45CD08DDACFD21C47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +153,18 @@
 		C3110DCC1E96873100DB94B7 /* MemoryProfilerTesting */ = {
 			isa = PBXGroup;
 			children = (
-				C3110DD01E96873100DB94B7 /* AppDelegate.h */,
-				C3110DD11E96873100DB94B7 /* AppDelegate.m */,
-				C3110DD31E96873100DB94B7 /* ViewController.h */,
-				C3110DD41E96873100DB94B7 /* ViewController.m */,
+				C3110E001E96876A00DB94B7 /* AppDelegate.h */,
+				C3110E011E96876A00DB94B7 /* AppDelegate.m */,
+				C3110E021E96876A00DB94B7 /* CacheCleanerPlugin.h */,
+				C3110E031E96876A00DB94B7 /* CacheCleanerPlugin.m */,
+				C3110E041E96876A00DB94B7 /* FacebookOpenSourceViewController.h */,
+				C3110E051E96876A00DB94B7 /* FacebookOpenSourceViewController.m */,
+				C3110E061E96876A00DB94B7 /* FacebookProjectViewController.h */,
+				C3110E071E96876A00DB94B7 /* FacebookProjectViewController.m */,
+				C3110E081E96876A00DB94B7 /* GithubRepository.h */,
+				C3110E091E96876A00DB94B7 /* GithubRepository.m */,
+				C3110E0A1E96876A00DB94B7 /* RetainCycleLoggerPlugin.h */,
+				C3110E0B1E96876A00DB94B7 /* RetainCycleLoggerPlugin.m */,
 				C3110DD61E96873100DB94B7 /* Main.storyboard */,
 				C3110DD91E96873100DB94B7 /* Assets.xcassets */,
 				C3110DDB1E96873100DB94B7 /* LaunchScreen.storyboard */,
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3110DF71E96873100DB94B7 /* Build configuration list for PBXNativeTarget "MemoryProfilerTesting" */;
 			buildPhases = (
+				D13F95A46C742C3119236294 /* [CP] Check Pods Manifest.lock */,
 				C3110DC61E96873100DB94B7 /* Sources */,
 				C3110DC71E96873100DB94B7 /* Frameworks */,
 				C3110DC81E96873100DB94B7 /* Resources */,
+				9D622D119B892892B2BA8A68 /* [CP] Embed Pods Frameworks */,
+				16AAF7AAABFE6404161305DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3110DFA1E96873100DB94B7 /* Build configuration list for PBXNativeTarget "MemoryProfilerTestingTests" */;
 			buildPhases = (
+				B703F6E1BFD7E1E3E5A1AE81 /* [CP] Check Pods Manifest.lock */,
 				C3110DDF1E96873100DB94B7 /* Sources */,
 				C3110DE01E96873100DB94B7 /* Frameworks */,
 				C3110DE11E96873100DB94B7 /* Resources */,
+				FC7E12CEDE85D13053CAB33A /* [CP] Embed Pods Frameworks */,
+				E7537F0A7A7AA2DF9C86F804 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3110DFD1E96873100DB94B7 /* Build configuration list for PBXNativeTarget "MemoryProfilerTestingUITests" */;
 			buildPhases = (
+				48D7F73D53B5C52D0AC07501 /* [CP] Check Pods Manifest.lock */,
 				C3110DEA1E96873100DB94B7 /* Sources */,
 				C3110DEB1E96873100DB94B7 /* Frameworks */,
 				C3110DEC1E96873100DB94B7 /* Resources */,
+				42CA0C8D39A91AF1CE493872 /* [CP] Embed Pods Frameworks */,
+				C3C3AB49C4396C59C0B88E08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,13 +337,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16AAF7AAABFE6404161305DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemoryProfilerTesting/Pods-MemoryProfilerTesting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42CA0C8D39A91AF1CE493872 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemoryProfilerTestingUITests/Pods-MemoryProfilerTestingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D7F73D53B5C52D0AC07501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D622D119B892892B2BA8A68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemoryProfilerTesting/Pods-MemoryProfilerTesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B703F6E1BFD7E1E3E5A1AE81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C3AB49C4396C59C0B88E08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemoryProfilerTestingUITests/Pods-MemoryProfilerTestingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D13F95A46C742C3119236294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7537F0A7A7AA2DF9C86F804 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemoryProfilerTestingTests/Pods-MemoryProfilerTestingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7E12CEDE85D13053CAB33A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemoryProfilerTestingTests/Pods-MemoryProfilerTestingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3110DC61E96873100DB94B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3110DD51E96873100DB94B7 /* ViewController.m in Sources */,
-				C3110DD21E96873100DB94B7 /* AppDelegate.m in Sources */,
+				C3110E0D1E96876A00DB94B7 /* CacheCleanerPlugin.m in Sources */,
+				C3110E0E1E96876A00DB94B7 /* FacebookOpenSourceViewController.m in Sources */,
+				C3110E101E96876A00DB94B7 /* GithubRepository.m in Sources */,
+				C3110E0F1E96876A00DB94B7 /* FacebookProjectViewController.m in Sources */,
+				C3110E111E96876A00DB94B7 /* RetainCycleLoggerPlugin.m in Sources */,
+				C3110E0C1E96876A00DB94B7 /* AppDelegate.m in Sources */,
 				C3110DCF1E96873100DB94B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +633,7 @@
 		};
 		C3110DF81E96873100DB94B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237019665E0C3D782EDEAB52 /* Pods-MemoryProfilerTesting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MemoryProfilerTesting/Info.plist;
@@ -433,6 +645,7 @@
 		};
 		C3110DF91E96873100DB94B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686B8AF68444CB50EBCF7EB1 /* Pods-MemoryProfilerTesting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MemoryProfilerTesting/Info.plist;
@@ -444,6 +657,7 @@
 		};
 		C3110DFB1E96873100DB94B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F3EA67639A88772D0E0EB4 /* Pods-MemoryProfilerTestingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MemoryProfilerTestingTests/Info.plist;
@@ -456,6 +670,7 @@
 		};
 		C3110DFC1E96873100DB94B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A910369E95267D0679A77D98 /* Pods-MemoryProfilerTestingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MemoryProfilerTestingTests/Info.plist;
@@ -468,6 +683,7 @@
 		};
 		C3110DFE1E96873100DB94B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07AC0B372880A5ACBA69116 /* Pods-MemoryProfilerTestingUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MemoryProfilerTestingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +695,7 @@
 		};
 		C3110DFF1E96873100DB94B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9844408B4201773D3D201FBB /* Pods-MemoryProfilerTestingUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MemoryProfilerTestingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

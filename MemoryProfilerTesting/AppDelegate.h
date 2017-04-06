@@ -1,10 +1,10 @@
-//
-//  AppDelegate.h
-//  MemoryProfilerTesting
-//
-//  Created by Glasses on 06/04/2017.
-//  Copyright © 2017 Glasses. All rights reserved.
-//
+/**
+ * Copyright (c) 2016-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the license found in the LICENSE file in
+ * the root directory of this source tree.
+ */
 
 #import <UIKit/UIKit.h>
 
